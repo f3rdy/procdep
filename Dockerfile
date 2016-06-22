@@ -1,8 +1,7 @@
 FROM centos:7
 
-#
-# dependend processes
-#
+MAINTAINER Fred Thiele <ferdy_news@gmx.de>
+
 WORKDIR /process
 
 ADD asset/ /process
